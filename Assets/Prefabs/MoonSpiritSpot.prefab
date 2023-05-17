@@ -1,0 +1,337 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8189067489787976070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8189067489787976069}
+  - component: {fileID: 8189067489787976068}
+  m_Layer: 0
+  m_Name: MoonSpiritSpot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8189067489787976069
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8189067489787976070}
+  m_LocalRotation: {x: 0.18137738, y: 0, z: 0, w: 0.9834136}
+  m_LocalPosition: {x: 2.75, y: 6.1, z: 4.68}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4110985494681769782}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 20.9, y: 0, z: 0}
+--- !u!114 &8189067489787976068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8189067489787976070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3423d151c9beedb43a2610e490d570f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 0}
+--- !u!1001 &8189067490340136204
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8189067489787976069}
+    m_Modifications:
+    - target: {fileID: 4891927707871766656, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: m_Name
+      value: moonSpirit
+      objectReference: {fileID: 0}
+    - target: {fileID: 4891927707871766656, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: m_TagString
+      value: strandedmoon
+      objectReference: {fileID: 0}
+    - target: {fileID: 5235521395825717818, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5235521395825717818, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 25.332624
+      objectReference: {fileID: 0}
+    - target: {fileID: 5235521395825717818, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 25.332632
+      objectReference: {fileID: 0}
+    - target: {fileID: 5235521395825717818, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 25.332623
+      objectReference: {fileID: 0}
+    - target: {fileID: 5235521395825717818, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5235521395825717818, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5235521395825717818, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5235521395825717818, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.73538494
+      objectReference: {fileID: 0}
+    - target: {fileID: 5235521395825717818, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6688541
+      objectReference: {fileID: 0}
+    - target: {fileID: 5235521395825717818, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.096815795
+      objectReference: {fileID: 0}
+    - target: {fileID: 5235521395825717818, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.049698208
+      objectReference: {fileID: 0}
+    - target: {fileID: 5235521395825717818, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -63.783
+      objectReference: {fileID: 0}
+    - target: {fileID: 5235521395825717818, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 9.895
+      objectReference: {fileID: 0}
+    - target: {fileID: 5235521395825717818, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: audio
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: letter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: turnref
+      value: 
+      objectReference: {fileID: -6493913391331992944, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_name
+      value: Moon (Mirage)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_panel
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: buttonref
+      value: 
+      objectReference: {fileID: -1078763785739529559, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: letteranim
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_name_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: voicelist.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: voicelist.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0b53b05c3f25c7b49b304782d5efb648, type: 3}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: voicelist.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6d263a17d16d38b4bbc9142bb376cffe, type: 3}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: voicelist.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 3b2c12211462f444b960fb59a9ed343d, type: 3}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: voicelist.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6b46b6c71cd8eb94f9b0284b5e20ee13, type: 3}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue2.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue3.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue4.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue.Array.data[0]
+      value: "\u201CLooks like you made it.\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue.Array.data[1]
+      value: "\u201CHow do things look from down there?  You look so much smaller\u2026
+        were you always that small?\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue.Array.data[2]
+      value: "\u201CSince you were just born.. you probably don\u2019t know how to
+        do anything yet.\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue.Array.data[3]
+      value: "\u201CTry looking around by using the right analog stick.\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue.Array.data[7]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue.Array.data[8]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue.Array.data[9]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue.Array.data[10]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue.Array.data[11]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue.Array.data[12]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue.Array.data[13]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue.Array.data[14]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue.Array.data[15]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue2.Array.data[0]
+      value: "\u201CSee?  You've already got the hang of this.  They say babies are
+        good with water.  Wanna try going for a swim?\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue2.Array.data[1]
+      value: "\u201CTry using the left analog stick to walk into the Ocean.\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue3.Array.data[0]
+      value: "\u201COops, I forgot.  You\u2019re made out of my moonlight, so you
+        can\u2019t go in water.  If you fall in, I will have to bring you back to
+        land.  Try not to, okay?\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue3.Array.data[1]
+      value: "\u201CThat being said, I kind of messed up.  Looks like you're stranded
+        there.\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue3.Array.data[2]
+      value: '"If only you could get to that log..."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue3.Array.data[3]
+      value: '"...What did you say?"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue3.Array.data[4]
+      value: "\u201CYou want me to follow.. your hand movements?  To change the water
+        levels?\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue3.Array.data[5]
+      value: "\u201CDo you really think that would work? \u2026Okay, let\u2019s give
+        it a shot.\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue3.Array.data[6]
+      value: "\u201CI'll follow your lead.  First, stand in the Moonlight where I
+        can see you, then hold both triggers and raise or lower your arms.  Let go
+        of triggers if you want me to stop.\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue4.Array.data[0]
+      value: "\u201CIt\u2019s.. it's working.  This might change everything.\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue4.Array.data[1]
+      value: '"I think you''re already smart enough to venture out on your own now."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue4.Array.data[2]
+      value: '"Please deliver this letter to the Ocean.  If you ever need me, seek
+        the moonlight"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue4.Array.data[3]
+      value: '"I... I believe in you."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue4.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359900, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: NPC_dialogue4.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153449063879359901, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+      propertyPath: m_Radius
+      value: 0.52
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+--- !u!4 &4110985494681769782 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5235521395825717818, guid: 6e32601fc5739814d816362e1779be54, type: 3}
+  m_PrefabInstance: {fileID: 8189067490340136204}
+  m_PrefabAsset: {fileID: 0}

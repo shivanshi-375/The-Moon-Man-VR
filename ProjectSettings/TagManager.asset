@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Water
+  - Moonlitspot
+  - Geyser
+  - FireCrystal
+  - IceCrystal
+  - Icicle
+  - IcePlatform
+  - whirlpoolzone
+  - pickaxe
+  - QuitBlock
+  - RestartBlock
+  - SettingsBlock
+  - Cells
+  - strandedmoon
+  - PlayerHand
+  - MoonRefuge1
+  - MoonRefuge2
+  - icemoon
+  - firemoon
+  - firelevel
+  - icelevel
+  - MoonFinal
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - Grabbable
+  - Platform
+  - Mushroom
+  - ShadowSpot
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

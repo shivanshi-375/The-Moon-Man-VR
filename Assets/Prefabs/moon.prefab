@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4891927707871766656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5235521395825717818}
+  - component: {fileID: 9153449063879359903}
+  - component: {fileID: 6405071005436987733}
+  - component: {fileID: 5702392228985132527}
+  - component: {fileID: 9153449063879359900}
+  - component: {fileID: 9153449063879359901}
+  m_Layer: 0
+  m_Name: moon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5235521395825717818
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4891927707871766656}
+  m_LocalRotation: {x: -0.52437526, y: 0.0861997, z: 0.06643754, w: 0.8445036}
+  m_LocalPosition: {x: -0.17738, y: 2.46, z: -3.62}
+  m_LocalScale: {x: 25.332624, y: 25.332624, z: 25.332624}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -63.783, y: 9.895, z: 2.83}
+--- !u!33 &9153449063879359903
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4891927707871766656}
+  m_Mesh: {fileID: 4711208715938537054, guid: 1ae1f8408abdf364fae8469dd3ae451b, type: 3}
+--- !u!23 &6405071005436987733
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4891927707871766656}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 14e561e76a4fb8b4080f3776f5ea8335, type: 2}
+  - {fileID: 2100000, guid: 135bfe66d43e5bc4ab17c4a328655e3f, type: 2}
+  - {fileID: 2100000, guid: a6c8c9be18d669043be99396f22a0274, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!95 &5702392228985132527
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4891927707871766656}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4864564f69093b348b4f30deebcba566, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &9153449063879359900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4891927707871766656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a63365fee8691c84c9540ed85b09810d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NPC_name: Moon
+  NPC_dialogue:
+  - "\u201CUm\u2026 Hi.  I\u2019m the moon.  I\u2026kind of..made you\u2026 don\u2019t
+    be weird about it.\u201D"
+  - "\u201CWhy did I make you? That\u2019s a bit forward don\u2019t you think?  Well
+    you see..\u201D"
+  - "\u201CI kind of\u2026 have this cr\u2026I have a crush.\u201D"
+  - "\u201Cn-NOT on you\u2026 let me explain.\u201D"
+  - "\u201CYou see\u2026 I have become utterly enchanted.. with..\u201D"
+  - "\u201C...The Ocean.\u201D"
+  - "\u201CYou know\u2026 that majestic, mysterious being that dances beneath us..
+    glistening in my rays, even as we speak..\u201D"
+  - "\u201CI\u2019ve been watching it for a long time\u2026 I want nothing more than
+    to come closer\u2026\u201D"
+  - "\u201CTo finally hear its voice.\u201D"
+  - "\u201CBut every time I try\u2026 it runs away...\u201D"
+  - "\u201CDo you think they hate me?  I don\u2019t mean to be awkward.. I can\u2019t
+    help it.\u201D"
+  - "\u201CI just want the Ocean to know how I feel.\u201D"
+  - "\u201CDo you think\u2026 you could maybe\u2026 deliver the Ocean a letter?\u201D"
+  - "\u201C...You would?? Thank you so much!! I mean.. ahem.. that's chill. Whatever.\u201D"
+  - "\u201CI\u2019ll send you down there then.  Here\u2019s the letter.  Keep it
+    safe.\u201D"
+  - "\u201CI\u2026 I really appreciate this.\u201D"
+  NPC_dialogue2:
+  - 
+  NPC_dialogue3:
+  - 
+  NPC_dialogue4:
+  - 
+  NPC_panel: {fileID: 0}
+  NPC_text: {fileID: 0}
+  NPC_name_text: {fileID: 0}
+  NPC_dialogueoption: 1
+  NPC_dialogueindex: 0
+  audio: {fileID: 0}
+  clip: {fileID: 8300000, guid: a87244bb25ee3c344a0dfa0feba0451e, type: 3}
+  rotated: 0
+  rotatedfirst: 0
+  diedonce: 0
+  buttonref: {fileID: 2303067330410098468, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  turnref: {fileID: 0}
+  newscene: {fileID: 0}
+  moonanim: {fileID: 5702392228985132527}
+  talkingover: 0
+--- !u!135 &9153449063879359901
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4891927707871766656}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.22
+  m_Center: {x: -0.000000013038518, y: -0.000000011175871, z: 6.661338e-16}
